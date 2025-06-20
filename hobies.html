@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi pagina web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="menu-loader.js"></script>
+</head>
+<body>
+<header id="menu-container"></header>
+<div id="hobies">
+  <section class="hobby-quiz">
+    <h3>🧩 ¿Qué hobbie compartimos tú y yo?</h3>
+    <form id="quiz-form">
+
+      <p>1. ¿Cómo te definirías?</p>
+      <label><input type="radio" name="q1" value="informatic"> Curiosa por naturaleza</label><br>
+      <label><input type="radio" name="q1" value="platano"> Me distrae cualquier plátano en 10 metros a la redonda</label><br>
+      <label><input type="radio" name="q1" value="globo"> Siempre soñando con globos de helio</label>
+
+      <p>2. ¿Qué haces para conectar con el presente?</p>
+      <label><input type="radio" name="q2" value="peluche"> Contar las costuras de un peluche</label><br>
+      <label><input type="radio" name="q2" value="dog"> Pasear o estar con mi perro</label><br>      
+      <label><input type="radio" name="q2" value="lluvia"> Ver gotas caer sobre una piña</label>
+
+      <p>3. ¿Cuál es tu espíritu animal?</p>
+      <label><input type="radio" name="q3" value="gaviota"> Una gaviota que grita a las 6:00 am</label><br>
+      <label><input type="radio" name="q3" value="plancton"> Una colonia de plancton con talento oculto</label><br>
+      <label><input type="radio" name="q3" value="gato"> Un gato observando todo con calma</label><br>
+      <p>4. ¿Qué te equilibra cuando todo va rápido?</p>
+      <label><input type="radio" name="q4" value="singer"> Cantar y soltarlo todo</label><br>
+      <label><input type="radio" name="q4" value="reptil"> Ver vídeos de reptiles arbóreos</label><br>
+      <label><input type="radio" name="q4" value="trapecio"> Hacer trapecio sin red mientras grito QA</label>
+
+      <p>5. ¿Cómo muestras tu lado más creativo?</p>
+      <label><input type="radio" name="q5" value="emoji"> Usando solo emojis para comunicarme un día entero</label><br>
+      <label><input type="radio" name="q5" value="papelAluminio"> Modelando esculturas con papel de aluminio</label><br>
+      <label><input type="radio" name="q5" value="paint"> Pintando con total libertad</label><br>
+
+      <p>6. ¿Cuál es tu bebida favorita?</p>
+      <label><input type="radio" name="q6" value="ketchup"> Un vasito de ketchup bien fresquito</label><br>
+      <label><input type="radio" name="q6" value="cafe"> Café, sin duda</label><br>
+      <label><input type="radio" name="q6" value="gasoil"> Gasoil con hielo (sin plomo)</label><br>
+
+      <button type="submit" style="margin-top:1rem;">Descubrir</button>
+    </form>
+  </section>
+</div>
+<section class="galeria-destacada" id="tarjetas-hobbies" style="display: none;">
+      <h2>💡 Tu afinidad con mis pasiones</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item informatic">
+          <img src="informatic.png" alt="Informática" width="277px" height="209px"/>
+          <p>Curiosa por naturaleza. Me encanta entender cómo funciona lo que uso cada día.</p>
+        </div>
+        <div class="gallery-item dog">
+          <img src="dog.png" alt="Perro" width="277px" height="209px"/>
+          <p>Mi compañero de cuatro patas me recuerda lo importante: disfrutar del ahora.</p>
+        </div>
+        <div class="gallery-item gato">
+          <img src="gato.png" alt="Gato" width="277px" height="209px"/>
+          <p>Mi espíritu animal cuando encuentro un bug que nadie más ve.</p>
+        </div>
+        <div class="gallery-item singer">
+          <img src="singer.png" alt="Singer" width="277px" height="209px"/>
+          <p>La música me equilibra. Cantar es una forma de resetear la mente.</p>
+        </div>
+        <div class="gallery-item paint">
+          <img src="paint.png" alt="Pintura" width="277px" height="209px"/>
+          <p>Creatividad sin teclado: pintar es mi otra forma de buscar detalle y armonía.</p>
+        </div>
+        <div class="gallery-item cafe">
+          <img src="cafe.png" alt="Café" width="277px" height="209px"/>
+          <p>El combustible oficial de una buena sesión de testing.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+</body>
+</html>
